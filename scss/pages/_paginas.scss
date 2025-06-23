@@ -1,0 +1,63 @@
+.h2titulos{
+   @extend %tituloh2;
+    font-size: 25px;
+    margin-top: 110px;
+}
+
+.marco2{
+   @extend %marco;
+   @include flexbox(column, space-between, center, nowrap);
+   height: 410px;
+
+.h3{
+    color: $color-negro;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+}
+
+
+
+
+.precio{
+    color: $color-negro;
+    font-size: 17px;
+}
+
+.botoncomprar{
+   @include boton($color-negro, $color-blanco)
+}
+
+.imgescape4{
+    width: 270px;
+}
+
+.imgcasco{
+width:220px ;
+}
+
+.imgbota{
+  width: 220px; ;  
+}
+
+.imgpechera{
+    width: 200px; ;
+}
+
+.imgguante{
+    width: 140px; ;
+}
+
+.imgequipo{
+  width: 100px; ;  
+}
+
+.imgls2{
+    width:250px
+}
+
+.imgls2guantes{
+    width:150px
+}

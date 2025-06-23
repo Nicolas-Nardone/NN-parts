@@ -1,0 +1,43 @@
+.logo {
+    background-color: $color-fondologo;
+   
+    padding: 2px;
+    margin: 7px;
+    width: 6rem;
+    
+    border-radius: 50%;
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px $color-sombra;
+}
+
+.imgtienda1{
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 10px $color-sombra;
+}
+
+.imgtienda2{
+display: none;
+}
+
+.sobrenosotros {
+margin-top: 100px;
+}
+
+.tituloh1{
+color: $color-negro;
+text-align: center;
+font-size: 30px;
+margin: 10px;
+}
+
+.textconocenos {
+color: $color-negro;
+margin: 20px;
+text-align: center;
+}
+
+.btnconocenos{
+    color: $color-negro;
+   @include flexbox(row, center, stretch, nowrap)
+}

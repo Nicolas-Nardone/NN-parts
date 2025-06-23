@@ -1,0 +1,25 @@
+.footer{
+    background-color: $color-fondofooter;
+    
+    border-top: 10px solid $color-rojofooter;
+    padding: 10px;
+    margin: 50px 0px 0px 0px;
+}
+
+.contactofooter{
+    color: $color-letrafooter;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+.textconocenos{
+    padding: 5px;
+}
+
+.copy{
+   width: 100%;
+   text-align: center;
+   margin-top: 2rem;
+   font-size: 0.9rem;
+   color: $color-letrafooter;
+}

@@ -1,0 +1,55 @@
+@media (min-width: 1020px){
+
+    /*imagenes*/
+.imgtienda1{
+    display: none;
+}
+
+.imgtienda2{
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 10px $color-sombra;
+}
+
+.imgconocenos1{
+    display: none;
+}
+
+.imgconocenos2{
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 10px $color-sombra;
+}
+
+/*paginas*/
+   .h2titulos{
+    @extend %tituloh2;
+    font-size: 40px;
+    margin-top: 110px;
+}
+
+.botoncomprar{
+    @include boton($color-rojoboton, $color-negro)
+}
+
+/*contacto */
+.contacto {
+    font-family: Arial, sans-serif;
+    color: $color-contacto;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+    margin-top: 120px;
+    
+}
+
+.contenedorcontacto{
+    @include flexbox(column, flex-start, stretch, nowrap);
+    margin: 20px 110px;
+}
+
+
+
+
+
+}

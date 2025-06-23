@@ -1,0 +1,18 @@
+@mixin flexbox($direction, $justify, $align, $wrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $wrap;
+}
+
+@mixin boton($bg-color, $text-color) {
+  background-color: $bg-color;
+  color: $text-color;
+  padding: 4px 12px;
+  width: 200px;
+  font-weight: 620;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 2px solid;
+}

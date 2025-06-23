@@ -1,0 +1,38 @@
+.h2productos {
+   @extend %tituloh2;
+     font-size: 40px;
+}
+    
+.divisordeproductos{
+    background-color: $color-divisor;
+    color: $color-negro;
+    font-size: 20px;
+    margin: 35px 0px 10px 0px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px $color-sombra;
+}
+
+.contenedoresproducto{
+     @include flexbox(row, center, stretch, wrap)
+}
+
+.marco {
+    @extend %marco;
+    @include flexbox(column, space-between, center, nowrap);
+    height: 380px;
+
+.h4{
+    color: $color-negro;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+}
+
+
+
+.botonver{
+    @include boton($color-rojoboton, $color-negro)
+}
