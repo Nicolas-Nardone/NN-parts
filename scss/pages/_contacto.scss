@@ -1,3 +1,4 @@
+
 .contacto {
     font-family: Arial, sans-serif;
     color: $color-contacto;
@@ -10,18 +11,15 @@
     }
 }
 
-
-
 .contenedorcontacto{
-     @include flexbox(column, flex-start, stretch, nowrap);
-     margin: 20px;
+    @include flexbox(column, flex-start, stretch, nowrap);
+     
     
      .input{
-    background-color: $color-blancoclaro;
+     background-color: $color-blancoclaro;
      border: none;
-    outline: none;
-
-}
+     outline: none;
+    }
 
 .textarea{
     height: 200px;
@@ -33,10 +31,9 @@
 
 .label{
      font-weight: bold;
-}
-}
+     }
 
-
+}
 
 .contenedorbutton{
      @include flexbox(row, center, stretch, nowrap);

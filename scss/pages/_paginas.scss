@@ -9,17 +9,13 @@
    @include flexbox(column, space-between, center, nowrap);
    height: 410px;
 
-.h3{
+ .h3{
     color: $color-negro;
     font-size: 20px;
     margin: auto;
     margin-bottom: 20px;
     font-weight: 700;
-}
-}
-
-
-
+ }
 
 .precio{
     color: $color-negro;
@@ -29,6 +25,13 @@
 .botoncomprar{
    @include boton($color-negro, $color-blanco)
 }
+
+}
+
+
+
+
+
 
 .imgescape4{
     width: 270px;
