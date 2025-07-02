@@ -11,10 +11,12 @@
   background-color: #ffffff;
   width: 300px;
   padding: 15px 10px;
-  margin: 10px;
+  margin: 15px;
   border-radius: 10px;
   border: 2px solid rgba(87, 87, 87, 0.631372549);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5019607843);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 * {
@@ -82,7 +84,7 @@ body {
   background-color: rgba(107, 107, 107, 0.7882352941);
   color: #000;
   font-size: 20px;
-  margin: 35px 0px 10px 0px;
+  margin: 55px 0px 10px 0px;
   padding: 10px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5019607843);
@@ -112,7 +114,13 @@ body {
   font-weight: 700;
 }
 
+.marco:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5019607843);
+}
+
 .botonver {
+  transition: background-color 0.3s ease;
   background-color: rgba(173, 26, 26, 0.9333333333);
   color: #000;
   padding: 4px 12px;
@@ -123,8 +131,13 @@ body {
   border: 2px solid;
 }
 
+.marco:hover .botonver {
+  background-color: #e62828;
+}
+
 .footer {
   background-color: rgba(58, 58, 58, 0.8156862745);
+  min-height: 25vh;
   border-top: 10px solid rgba(173, 26, 26, 0.7960784314);
   padding: 10px;
   margin: 50px 0px 0px 0px;
@@ -244,6 +257,7 @@ body {
   font-size: 17px;
 }
 .marco2 .botoncomprar {
+  transition: background-color 0.3s ease;
   background-color: #000;
   color: #ffffff;
   padding: 4px 12px;
@@ -252,6 +266,16 @@ body {
   font-size: 15px;
   border-radius: 5px;
   border: 2px solid;
+}
+
+.marco2:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5019607843);
+}
+
+.marco2:hover .botoncomprar {
+  background-color: rgba(173, 26, 26, 0.9333333333);
+  color: #000;
 }
 
 .imgescape4 {
@@ -267,6 +291,10 @@ body {
 }
 
 .imgpechera {
+  width: 240px;
+}
+
+.imgpechera2 {
   width: 200px;
 }
 

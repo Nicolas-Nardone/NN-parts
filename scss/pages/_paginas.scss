@@ -23,9 +23,26 @@
 }
 
 .botoncomprar{
-   @include boton($color-negro, $color-blanco)
+    transition: background-color 0.3s ease;
+    @include boton($color-negro, $color-blanco)
 }
 
+
+}
+
+
+
+
+
+.marco2:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px $color-sombra;
+
+}
+
+.marco2:hover .botoncomprar {
+  background-color: $color-rojoboton;
+  color: $color-negro;
 }
 
 
@@ -46,6 +63,10 @@ width:220px ;
 }
 
 .imgpechera{
+    width: 240px; ;
+}
+
+.imgpechera2{
     width: 200px; ;
 }
 
@@ -64,3 +85,4 @@ width:220px ;
 .imgls2guantes{
     width:150px
 }
+

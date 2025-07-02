@@ -8,7 +8,7 @@
     background-color: $color-divisor;
     color: $color-negro;
     font-size: 20px;
-    margin: 35px 0px 10px 0px;
+    margin: 55px 0px 10px 0px;
     padding: 10px;
     text-align: center;
     box-shadow: 0 0 10px $color-sombra;
@@ -32,8 +32,17 @@
 }
 }
 
-
+.marco:hover{
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px $color-sombra;
+}
 
 .botonver{
+     transition: background-color 0.3s ease;
     @include boton($color-rojoboton, $color-negro)
+}
+
+.marco:hover .botonver {
+  background-color: $color-rojofuerte;
+  
 }
