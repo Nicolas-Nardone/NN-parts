@@ -12,6 +12,11 @@
 }
 
 .contenedorcontacto{
+    margin: 10px 20px
+}
+
+.contenedorlabel{
+    margin: 15px;
     @include flexbox(column, flex-start, stretch, nowrap);
      
     
@@ -36,7 +41,8 @@
 }
 
 .contenedorbutton{
-     @include flexbox(row, center, stretch, nowrap);
+     margin: 20px;
+    @include flexbox(row, center, stretch, nowrap);
 }
 
 .contenedorbutton button{
