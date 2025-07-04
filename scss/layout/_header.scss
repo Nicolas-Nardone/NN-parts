@@ -10,15 +10,6 @@
     box-shadow: 0 0 10px $color-sombra;
 }
 
-.imgtienda1{
-    display: block;
-    width: 100%;
-    box-shadow: 0 0 10px $color-sombra;
-}
-
-.imgtienda2{
-display: none;
-}
 
 .sobrenosotros {
 margin-top: 100px;
@@ -28,7 +19,20 @@ margin-top: 100px;
 color: $color-negro;
 text-align: center;
 font-size: 30px;
-margin: 10px;
+margin: 20px;
+animation: agrandarachicar 2s infinite linear;
+}
+
+ @keyframes agrandarachicar {
+  0% {
+    transform: scale(1); 
+  }
+  50% {
+    transform: scale(1.1); 
+  }
+  100% {
+    transform: scale(1); 
+  }
 }
 
 .textconocenos {
@@ -39,5 +43,7 @@ text-align: center;
 
 .btnconocenos{
     color: $color-negro;
-   @include flexbox(row, center, stretch, nowrap)
+    @include flexbox(row, center, stretch, nowrap)
 }
+
+

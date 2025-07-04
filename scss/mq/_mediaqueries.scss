@@ -1,15 +1,6 @@
 @media (min-width: 1020px){
 
     /*imagenes*/
-.imgtienda1{
-    display: none;
-}
-
-.imgtienda2{
-    display: block;
-    width: 100%;
-    box-shadow: 0 0 10px $color-sombra;
-}
 
 .imgconocenos1{
     display: none;
@@ -28,9 +19,6 @@
     margin-top: 110px;
 }
 
-.botoncomprar{
-    @include boton($color-rojoboton, $color-negro)
-}
 
 /*contacto */
 .contacto {
