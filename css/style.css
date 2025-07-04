@@ -40,25 +40,20 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5019607843);
 }
 
-.imgtienda1 {
-  display: block;
-  width: 100%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5019607843);
-}
-
-.imgtienda2 {
-  display: none;
-}
-
 .sobrenosotros {
   margin-top: 100px;
+}
+
+.sombra-img {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
 }
 
 .tituloh1 {
   color: #000;
   text-align: center;
   font-size: 30px;
-  margin: 20px;
+  margin: 30px;
   animation: agrandarachicar 2s infinite linear;
 }
 
